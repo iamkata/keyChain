@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1112C8A320906A720074799C /* WeChat-circle o-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1112C89D20906A710074799C /* WeChat-circle o-@3x.png */; };
+		1112C8A420906A720074799C /* Weibo-circle o-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1112C89E20906A710074799C /* Weibo-circle o-@3x.png */; };
+		1112C8A720906A720074799C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1112C8A120906A720074799C /* 3.png */; };
+		1112C8A820906A720074799C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1112C8A220906A720074799C /* 2.png */; };
+		112830C91FC2BC3E00BFEDA8 /* BundleViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = 112830C71FC2BC3E00BFEDA8 /* BundleViewCtr.m */; };
+		112830CA1FC2BC3E00BFEDA8 /* BundleViewCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112830C81FC2BC3E00BFEDA8 /* BundleViewCtr.xib */; };
+		112830CC1FC309B100BFEDA8 /* EOCBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 112830CB1FC309B100BFEDA8 /* EOCBundle.bundle */; };
+		11E0B08B2090B973005CCF78 /* EOCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E0B08A2090B973005CCF78 /* EOCClass.m */; };
+		11E0B08D2090C49A005CCF78 /* SysDataSave.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11E0B08C2090C49A005CCF78 /* SysDataSave.plist */; };
+		CD6BCBA21ECEF5CA002CCEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6BCB9E1ECEF5CA002CCEFE /* LaunchScreen.storyboard */; };
+		CD6BCBA31ECEF5CA002CCEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6BCBA01ECEF5CA002CCEFE /* Main.storyboard */; };
+		CD6BCBB01ED279EF002CCEFE /* EOCLocalAnalyseVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6BCBAE1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.m */; };
+		CD6BCBB11ED279EF002CCEFE /* EOCLocalAnalyseVCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6BCBAF1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.xib */; };
+		CD6BCBB31ED27A3E002CCEFE /* ArchiveViewCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6BCBB21ED27A3E002CCEFE /* ArchiveViewCtr.xib */; };
+		CDBF89F91ECD945900B40D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF89F81ECD945900B40D84 /* main.m */; };
+		CDBF89FC1ECD945900B40D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF89FB1ECD945900B40D84 /* AppDelegate.m */; };
+		CDBF89FF1ECD945900B40D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF89FE1ECD945900B40D84 /* ViewController.m */; };
+		CDBF8A041ECD945900B40D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBF8A031ECD945900B40D84 /* Assets.xcassets */; };
+		CDBF8A1F1ECD96F900B40D84 /* ArchiveViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8A1E1ECD96F900B40D84 /* ArchiveViewCtr.m */; };
+		CDBF8A351ECEEA2F00B40D84 /* KeyChainAddVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8A331ECEEA2F00B40D84 /* KeyChainAddVCtr.m */; };
+		CDBF8A361ECEEA2F00B40D84 /* KeyChainAddVCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBF8A341ECEEA2F00B40D84 /* KeyChainAddVCtr.xib */; };
+		CDBF8A3A1ECEEA4000B40D84 /* KeyChainDeleteVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8A381ECEEA4000B40D84 /* KeyChainDeleteVCtr.m */; };
+		CDBF8A3B1ECEEA4000B40D84 /* KeyChainDeleteVCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBF8A391ECEEA4000B40D84 /* KeyChainDeleteVCtr.xib */; };
+		CDBF8A3F1ECEEA5500B40D84 /* KeyChainUpdateVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8A3D1ECEEA5500B40D84 /* KeyChainUpdateVCtr.m */; };
+		CDBF8A401ECEEA5500B40D84 /* KeyChainUpdateVCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBF8A3E1ECEEA5500B40D84 /* KeyChainUpdateVCtr.xib */; };
+		CDBF8A471ECEEA9000B40D84 /* KeyChainSearchVCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBF8A451ECEEA9000B40D84 /* KeyChainSearchVCtr.m */; };
+		CDBF8A481ECEEA9000B40D84 /* KeyChainSearchVCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBF8A461ECEEA9000B40D84 /* KeyChainSearchVCtr.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1112C89D20906A710074799C /* WeChat-circle o-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WeChat-circle o-@3x.png"; sourceTree = "<group>"; };
+		1112C89E20906A710074799C /* Weibo-circle o-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Weibo-circle o-@3x.png"; sourceTree = "<group>"; };
+		1112C8A120906A720074799C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		1112C8A220906A720074799C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		112830C61FC2BC3E00BFEDA8 /* BundleViewCtr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BundleViewCtr.h; sourceTree = "<group>"; };
+		112830C71FC2BC3E00BFEDA8 /* BundleViewCtr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleViewCtr.m; sourceTree = "<group>"; };
+		112830C81FC2BC3E00BFEDA8 /* BundleViewCtr.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BundleViewCtr.xib; sourceTree = "<group>"; };
+		112830CB1FC309B100BFEDA8 /* EOCBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EOCBundle.bundle; sourceTree = "<group>"; };
+		11E0B0892090B973005CCF78 /* EOCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCClass.h; sourceTree = "<group>"; };
+		11E0B08A2090B973005CCF78 /* EOCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCClass.m; sourceTree = "<group>"; };
+		11E0B08C2090C49A005CCF78 /* SysDataSave.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SysDataSave.plist; sourceTree = "<group>"; };
+		CD6BCB9F1ECEF5CA002CCEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6BCBA11ECEF5CA002CCEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6BCBAD1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCLocalAnalyseVCtr.h; sourceTree = "<group>"; };
+		CD6BCBAE1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCLocalAnalyseVCtr.m; sourceTree = "<group>"; };
+		CD6BCBAF1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOCLocalAnalyseVCtr.xib; sourceTree = "<group>"; };
+		CD6BCBB21ED27A3E002CCEFE /* ArchiveViewCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArchiveViewCtr.xib; sourceTree = "<group>"; };
+		CDBF89F41ECD945900B40D84 /* EOCDataStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOCDataStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBF89F81ECD945900B40D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDBF89FA1ECD945900B40D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDBF89FB1ECD945900B40D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDBF89FD1ECD945900B40D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDBF89FE1ECD945900B40D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDBF8A031ECD945900B40D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBF8A081ECD945900B40D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBF8A1D1ECD96F900B40D84 /* ArchiveViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveViewCtr.h; sourceTree = "<group>"; };
+		CDBF8A1E1ECD96F900B40D84 /* ArchiveViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveViewCtr.m; sourceTree = "<group>"; };
+		CDBF8A321ECEEA2F00B40D84 /* KeyChainAddVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainAddVCtr.h; sourceTree = "<group>"; };
+		CDBF8A331ECEEA2F00B40D84 /* KeyChainAddVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainAddVCtr.m; sourceTree = "<group>"; };
+		CDBF8A341ECEEA2F00B40D84 /* KeyChainAddVCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyChainAddVCtr.xib; sourceTree = "<group>"; };
+		CDBF8A371ECEEA4000B40D84 /* KeyChainDeleteVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainDeleteVCtr.h; sourceTree = "<group>"; };
+		CDBF8A381ECEEA4000B40D84 /* KeyChainDeleteVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainDeleteVCtr.m; sourceTree = "<group>"; };
+		CDBF8A391ECEEA4000B40D84 /* KeyChainDeleteVCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyChainDeleteVCtr.xib; sourceTree = "<group>"; };
+		CDBF8A3C1ECEEA5500B40D84 /* KeyChainUpdateVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainUpdateVCtr.h; sourceTree = "<group>"; };
+		CDBF8A3D1ECEEA5500B40D84 /* KeyChainUpdateVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainUpdateVCtr.m; sourceTree = "<group>"; };
+		CDBF8A3E1ECEEA5500B40D84 /* KeyChainUpdateVCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyChainUpdateVCtr.xib; sourceTree = "<group>"; };
+		CDBF8A441ECEEA9000B40D84 /* KeyChainSearchVCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainSearchVCtr.h; sourceTree = "<group>"; };
+		CDBF8A451ECEEA9000B40D84 /* KeyChainSearchVCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainSearchVCtr.m; sourceTree = "<group>"; };
+		CDBF8A461ECEEA9000B40D84 /* KeyChainSearchVCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyChainSearchVCtr.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBF89F11ECD945900B40D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDBF89EB1ECD945900B40D84 = {
+			isa = PBXGroup;
+			children = (
+				CDBF89F61ECD945900B40D84 /* EOCDataStore */,
+				CDBF89F51ECD945900B40D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBF89F51ECD945900B40D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF89F41ECD945900B40D84 /* EOCDataStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBF89F61ECD945900B40D84 /* EOCDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF89FA1ECD945900B40D84 /* AppDelegate.h */,
+				CDBF89FB1ECD945900B40D84 /* AppDelegate.m */,
+				CDBF89FD1ECD945900B40D84 /* ViewController.h */,
+				CDBF89FE1ECD945900B40D84 /* ViewController.m */,
+				CD6BCBAD1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.h */,
+				CD6BCBAE1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.m */,
+				CD6BCBAF1ED279EF002CCEFE /* EOCLocalAnalyseVCtr.xib */,
+				112830C61FC2BC3E00BFEDA8 /* BundleViewCtr.h */,
+				112830C71FC2BC3E00BFEDA8 /* BundleViewCtr.m */,
+				112830C81FC2BC3E00BFEDA8 /* BundleViewCtr.xib */,
+				112830CB1FC309B100BFEDA8 /* EOCBundle.bundle */,
+				CDBF8A1D1ECD96F900B40D84 /* ArchiveViewCtr.h */,
+				CDBF8A1E1ECD96F900B40D84 /* ArchiveViewCtr.m */,
+				CD6BCBB21ED27A3E002CCEFE /* ArchiveViewCtr.xib */,
+				11E0B0892090B973005CCF78 /* EOCClass.h */,
+				11E0B08A2090B973005CCF78 /* EOCClass.m */,
+				CDBF8A321ECEEA2F00B40D84 /* KeyChainAddVCtr.h */,
+				CDBF8A331ECEEA2F00B40D84 /* KeyChainAddVCtr.m */,
+				CDBF8A341ECEEA2F00B40D84 /* KeyChainAddVCtr.xib */,
+				CDBF8A371ECEEA4000B40D84 /* KeyChainDeleteVCtr.h */,
+				CDBF8A381ECEEA4000B40D84 /* KeyChainDeleteVCtr.m */,
+				CDBF8A391ECEEA4000B40D84 /* KeyChainDeleteVCtr.xib */,
+				CDBF8A3C1ECEEA5500B40D84 /* KeyChainUpdateVCtr.h */,
+				CDBF8A3D1ECEEA5500B40D84 /* KeyChainUpdateVCtr.m */,
+				CDBF8A3E1ECEEA5500B40D84 /* KeyChainUpdateVCtr.xib */,
+				CDBF8A441ECEEA9000B40D84 /* KeyChainSearchVCtr.h */,
+				CDBF8A451ECEEA9000B40D84 /* KeyChainSearchVCtr.m */,
+				CDBF8A461ECEEA9000B40D84 /* KeyChainSearchVCtr.xib */,
+				CD6BCB9E1ECEF5CA002CCEFE /* LaunchScreen.storyboard */,
+				CD6BCBA01ECEF5CA002CCEFE /* Main.storyboard */,
+				CDBF8A031ECD945900B40D84 /* Assets.xcassets */,
+				CDBF8A051ECD945900B40D84 /* LaunchScreen.storyboard */,
+				CDBF8A081ECD945900B40D84 /* Info.plist */,
+				11E0B08C2090C49A005CCF78 /* SysDataSave.plist */,
+				1112C8A220906A720074799C /* 2.png */,
+				1112C89D20906A710074799C /* WeChat-circle o-@3x.png */,
+				1112C8A120906A720074799C /* 3.png */,
+				1112C89E20906A710074799C /* Weibo-circle o-@3x.png */,
+				CDBF89F71ECD945900B40D84 /* Supporting Files */,
+			);
+			path = EOCDataStore;
+			sourceTree = "<group>";
+		};
+		CDBF89F71ECD945900B40D84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF89F81ECD945900B40D84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBF89F31ECD945900B40D84 /* EOCDataStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBF8A0B1ECD945900B40D84 /* Build configuration list for PBXNativeTarget "EOCDataStore" */;
+			buildPhases = (
+				CDBF89F01ECD945900B40D84 /* Sources */,
+				CDBF89F11ECD945900B40D84 /* Frameworks */,
+				CDBF89F21ECD945900B40D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EOCDataStore;
+			productName = EOCDataStore;
+			productReference = CDBF89F41ECD945900B40D84 /* EOCDataStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBF89EC1ECD945900B40D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EOC;
+				TargetAttributes = {
+					CDBF89F31ECD945900B40D84 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y9PY69PRSB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDBF89EF1ECD945900B40D84 /* Build configuration list for PBXProject "EOCDataStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CDBF89EB1ECD945900B40D84;
+			productRefGroup = CDBF89F51ECD945900B40D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBF89F31ECD945900B40D84 /* EOCDataStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBF89F21ECD945900B40D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6BCBA21ECEF5CA002CCEFE /* LaunchScreen.storyboard in Resources */,
+				CDBF8A481ECEEA9000B40D84 /* KeyChainSearchVCtr.xib in Resources */,
+				1112C8A320906A720074799C /* WeChat-circle o-@3x.png in Resources */,
+				11E0B08D2090C49A005CCF78 /* SysDataSave.plist in Resources */,
+				1112C8A720906A720074799C /* 3.png in Resources */,
+				CD6BCBB31ED27A3E002CCEFE /* ArchiveViewCtr.xib in Resources */,
+				1112C8A820906A720074799C /* 2.png in Resources */,
+				CDBF8A041ECD945900B40D84 /* Assets.xcassets in Resources */,
+				CDBF8A361ECEEA2F00B40D84 /* KeyChainAddVCtr.xib in Resources */,
+				CD6BCBB11ED279EF002CCEFE /* EOCLocalAnalyseVCtr.xib in Resources */,
+				CD6BCBA31ECEF5CA002CCEFE /* Main.storyboard in Resources */,
+				1112C8A420906A720074799C /* Weibo-circle o-@3x.png in Resources */,
+				112830CA1FC2BC3E00BFEDA8 /* BundleViewCtr.xib in Resources */,
+				112830CC1FC309B100BFEDA8 /* EOCBundle.bundle in Resources */,
+				CDBF8A401ECEEA5500B40D84 /* KeyChainUpdateVCtr.xib in Resources */,
+				CDBF8A3B1ECEEA4000B40D84 /* KeyChainDeleteVCtr.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBF89F01ECD945900B40D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBF89FF1ECD945900B40D84 /* ViewController.m in Sources */,
+				CDBF89FC1ECD945900B40D84 /* AppDelegate.m in Sources */,
+				CDBF8A471ECEEA9000B40D84 /* KeyChainSearchVCtr.m in Sources */,
+				CDBF89F91ECD945900B40D84 /* main.m in Sources */,
+				112830C91FC2BC3E00BFEDA8 /* BundleViewCtr.m in Sources */,
+				CD6BCBB01ED279EF002CCEFE /* EOCLocalAnalyseVCtr.m in Sources */,
+				11E0B08B2090B973005CCF78 /* EOCClass.m in Sources */,
+				CDBF8A3F1ECEEA5500B40D84 /* KeyChainUpdateVCtr.m in Sources */,
+				CDBF8A3A1ECEEA4000B40D84 /* KeyChainDeleteVCtr.m in Sources */,
+				CDBF8A1F1ECD96F900B40D84 /* ArchiveViewCtr.m in Sources */,
+				CDBF8A351ECEEA2F00B40D84 /* KeyChainAddVCtr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6BCB9E1ECEF5CA002CCEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6BCB9F1ECEF5CA002CCEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6BCBA01ECEF5CA002CCEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6BCBA11ECEF5CA002CCEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBF8A051ECD945900B40D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBF8A091ECD945900B40D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDBF8A0A1ECD945900B40D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBF8A0C1ECD945900B40D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = /Users/eoc/Desktop/EOCDataStore/EOCDataStore/SysDataSave.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y9PY69PRSB;
+				INFOPLIST_FILE = EOCDataStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EocClass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDBF8A0D1ECD945900B40D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = /Users/eoc/Desktop/EOCDataStore/EOCDataStore/SysDataSave.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y9PY69PRSB;
+				INFOPLIST_FILE = EOCDataStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.EocClass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBF89EF1ECD945900B40D84 /* Build configuration list for PBXProject "EOCDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBF8A091ECD945900B40D84 /* Debug */,
+				CDBF8A0A1ECD945900B40D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBF8A0B1ECD945900B40D84 /* Build configuration list for PBXNativeTarget "EOCDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBF8A0C1ECD945900B40D84 /* Debug */,
+				CDBF8A0D1ECD945900B40D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBF89EC1ECD945900B40D84 /* Project object */;
+}
